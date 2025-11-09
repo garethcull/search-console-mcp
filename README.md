@@ -193,7 +193,7 @@ https://docs.cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-pytho
 
 
 # License
-MIT (or your preferred license).
+MIT.
 
 # Contributions & Support
 Feedback, issues and PRs welcome. Due to bandwidth constraints, I can't offer any timelines for free updates to this codebase. 
