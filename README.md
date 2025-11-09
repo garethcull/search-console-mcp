@@ -59,9 +59,9 @@ notifications/initialized → must NOT return a JSON-RPC body; respond 204
 
 This MCP server has environment variables that need to be set in order for it to work. They are:
 
-MCP_TOKEN: Shared secret for Authorization header
-SEARCH_CONSOLE_KEY: Base64-encoded Google service account JSON key for GSC
-GEMINI_API_KEY: API key for Gemini (used to translate natural language to GSC query JSON)
+1. MCP_TOKEN: Shared secret for Authorization header
+2. SEARCH_CONSOLE_KEY: Base64-encoded Google service account JSON key for GSC
+3. GEMINI_API_KEY: API key for Gemini (used to translate natural language to GSC query JSON)
 
 Note: The search console key will need to be encoded as a base64 string. You will need to do this for the mcp server to work.
 
